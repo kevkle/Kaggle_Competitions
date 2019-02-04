@@ -44,8 +44,8 @@ In this competition the task was to classify whether Quora questions were sincer
 ### Instruction 
 
 1. Download the necessary data into the data folder from (https://www.kaggle.com/c/quora-insincere-questions-classification/data).  This includes the files train.csv and test.cvs
-2. For the word embeddings I used glove.840B.300d embedding from the website (https://nlp.stanford.edu/projects/glove/)
-3. Load data into the notebook and go on with the code 
+2. For the word embeddings I used glove.840B.300d embedding from the website (https://nlp.stanford.edu/projects/glove/) and save it in the data folder with the name glove.840B.300d.txt
+3. Load data into the notebook and go on with the code
 
 ### Packages 
 
