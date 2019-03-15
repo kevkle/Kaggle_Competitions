@@ -83,7 +83,7 @@ from keras import regularizers
 ```
 
 
-## Project 2: West Nile Virus Prediction 
+## Project 3: West Nile Virus Prediction 
 
 ### Description
 
