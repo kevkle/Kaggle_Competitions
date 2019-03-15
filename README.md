@@ -89,11 +89,15 @@ from keras import regularizers
 
 In this competitition the target was to predict the appearance of the West Nile Virus in the Chicago Metro Area. The virus is transmitted through infected mosquitos and the city of Chicago has introduced measures to trap mosquitos and test them for the virus. There is data available for the months May - October from 2007-2014. This data includes location of the traps, the adress, the exact day and several weather variables that are taking into account. The task is to predict whether a tested mosquito is expected to have the virus based on the given data and based on the model give the city of Chicago some intel into what to improve in the detection and prevention process.
 
+
+For this project I used a random forest classifier with RandomizedSearch Cross Validation. Several of the random forest parameters were subject to grid searches and n different random realizations were used with CV to see which parameter configuration gives the best results. 
+
+The model was evaluated with ROC and AUC curves and since the data is highly imbalanced a lot of attention was given to get good recall results. 
+
 ### Introduction 
 
 The data is given in the corresponding West Nile Virus folder so the only thing to do is to clone the repo and then just use the notebook straightforward. 
 
- 
 
 ### Packages
 
